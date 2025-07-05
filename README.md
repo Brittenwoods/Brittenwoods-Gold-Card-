@@ -1,22 +1,13 @@
 
-# Brittenwoods Gold – Global Visa Remittance Platform
-
-## App Features
-- Black + Gold UI
-- Secure card issuance and activation
-- Employer payroll disbursement via paystub PIN
-- ATM withdrawal with dynamic or sender-linked PINs
-- Transfer Tree enforcement: 15 (Individual), 25 (SME)
-
-## Project Structure
-- /frontend → React Native mobile app
-- /backend → FastAPI services
-- /docs → Compliance policies
-- /designs → UI mockups
+# Brittenwoods Gold Backend
 
 ## Run Instructions
-Frontend:
-  cd frontend && npm install && npm start
 
-Backend:
-  cd backend && uvicorn main:app --reload
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Start the server:
+   uvicorn app.main:app --reload
+
+3. Access API docs:
+   http://localhost:8000/docs
